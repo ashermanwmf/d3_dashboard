@@ -1,0 +1,62 @@
+logo{
+ 
+    width: 50%;
+    height: auto;
+}
+
+html body{
+	margin: 0;
+	background: #ccc;
+	font: sans-serif;
+}
+
+.index_body {
+
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+
+}
+
+svg {
+ 
+    margin-left: 12%;
+    
+}
+
+
+/* CSS from online for the navbar */
+
+
+.navbar-inverse { background-color: #8F9ECC; opacity:0.85; font-size:15px; padding-top:16px;  padding-bottom:16px }
+.navbar-inverse .navbar-nav>li>a{font-size: 15px;-webkit-transition: all .3s;-moz-transition: all .3s;-ms-transition: all .3s;-o-transition: all .3s;transition: all .3s; ;}
+.navbar-inverse .navbar-nav>li>a { color:#efefef; padding-bottom:6px; padding-right:10px; }
+.navbar-inverse .navbar-nav li { margin-left:15px; text-transform: uppercase; }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{ color: #fff; background-color: transparent; border-bottom: 3px solid #FFF;  margin-bottom: 0px;-webkit-transition:0.5s; transition: 0.5s; transition-timing-function: ease; }
+.navbar-inverse .navbar-nav>li>a:hover { color:#FFF; border-bottom: 3px solid #FFF;-webkit-transition:0.5s; transition: 0.5s; transition-timing-function: ease; }
+.navbar-inverse .navbar-nav>li>a:active { border-bottom: 3px solid #FFF;-webkit-transition:0.5s; transition: 0.5s; transition-timing-function: ease; }
+.navbar-inverse { border:none; }
+.navbar-brand img{ margin-top:-15px; /*my own code*/ width:35%; height: auto;}
+@media only screen and (max-width:767px) { .index_body {padding-top: 15%;
+} .navbar-collapse{ border:none; } .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover { border:none; } .navbar-inverse .navbar-nav>li { border-bottom:1px solid #bd502f; } .navbar-inverse .navbar-nav>li:hover { border-bottom:1px solid #FFF;-webkit-transition:0.5s; transition: 0.5s; transition-timing-function: ease; } .navbar-inverse .navbar-nav>li>a:hover { color:#FFF; border:none; } }
+ .carousel-caption{position:absolute;right:15%;top:-40px;left:15%;z-index:10;padding-bottom:20px;color:#313131;text-align:center;text-shadow:0 0px 0px rgba(0,0,0,.6)}
+ .carousel-caption .btn{text-shadow:none}
+ @media screen and (min-width:768px){.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next,.carousel-control .icon-prev{width:30px;height:30px;margin-top:-15px;font-size:30px}.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-15px}.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-15px} .carousel-caption{right:20%;left:20%;padding-bottom:30px} }
+@media only screen and (max-width:767px) {.height-contact-element {margin:25px 0;} }
+@media only screen and (max-width:767px) {.padding-contact-element {padding-left:15px;} }
+#bloghome a { color:#E96840; }
+#bloghome p { padding:12px 0px; }
+#bloghome a:hover { color:#555; text-decoration: none; }
+#bloghome img:hover { filter: brightness(70%); -webkit-filter: brightness(70%); -moz-filter: brightness(70%); -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);-webkit-transition:0.5s; transition: 0.5s; transition-timing-function: ease; }
+.mouse-icon { background: none; border: 2px solid; border-radius: 15px; bottom: 0px; height: 44px; left: 0; margin: 0 auto; position: absolute; right: 0; width: 30px; cursor: pointer; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; transition: all .3s linear; }
+.mouse-icon:hover{ opacity: 0.8 !important; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; transition: all .3s linear; }
+.mouse-icon .wheel { -webkit-animation: 1.7s ease 0s normal none infinite magic-mouse-icon; -moz-animation: 1.7s ease 0s normal none infinite magic-mouse-icon; -o-animation: 1.7s ease 0s normal none infinite magic-mouse-icon; animation: 1.7s ease 0s normal none infinite magic-mouse-icon; border-radius: 30%; background:#fff; height: 12px; left: 0; margin-left: auto; margin-right: auto; margin-top: 6px; right: 0; width: 6px; }
+@-moz-keyframes magic-mouse-icon { 0% { margin-top: 6px; opacity: 0;} 30% { opacity: 1;} 100% { margin-top: 18px; opacity: 0;} }
+@-webkit-keyframes magic-mouse-icon { 0% { margin-top: 6px; opacity: 0;} 30% { opacity: 1;} 100% { margin-top: 18px; opacity: 0;} }
+@-o-keyframes magic-mouse-icon { 0% { margin-top: 6px; opacity: 0;} 30%  { opacity: 1;} 100% { margin-top: 18px; opacity: 0;} }
+@keyframes magic-mouse-icon { 0%   { margin-top: 6px; opacity: 0;} 30%  { opacity: 1;} 100% { margin-top: 18px; opacity: 0;} }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background-color: #bd502f; }
+
