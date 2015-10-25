@@ -14,16 +14,7 @@
     <script src="dashboard/includes/js/functions.js"></script>
     <script>
         $(document).ready(function() {
-            $('#button').on('click', function() {
-                $.ajax({
-                    url: 'data',
-                    type: 'POST',
-                    success: function(data) {
-                        console.log(data);
-                        $('#demo').html(data.age);
-                    }
-                });
-            });
+            getdata();
         });
     </script>
 </head>
@@ -52,11 +43,15 @@
 
     <div class="index_body">
         <span id="Dashboard"></span>
-        <h1 style="margin-left: 0px; margin-top: 32px;">Compare Stories</h1>
-
-        <button id="button" data-role="button" style="margin-left: 380px; margin-top: -3px;">Test it out</button>
+        <h1>Compare Stories</h1>
+        
+        <input id="searchterm" type="text" /> <button id="search">search</button>
+        
+        <button id="button" data-role="button">Test it out</button>
 
         <p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
 
     </div>
 
