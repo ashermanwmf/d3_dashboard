@@ -1,11 +1,9 @@
 <head>
     <meta charset="utf-8">
-
-
-
     <link rel="stylesheet" type="text/css" href="dashboard/includes/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dashboard/includes/css/style1.css">
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
     <script src="dashboard/includes/js/bootstrap.min.js"></script>
     <script src="dashboard/includes/js/jquery.quicksand.js"></script>
@@ -53,11 +51,24 @@
         
         <!-- <button id="button" data-role="button">Test my data</button> -->
         
+        <!-- trying to get live search to work -->
+        <div class="ui-widget">
+          <label for="search">Your city: </label>
+          <input id="search">
+        </div>
+
+        <div class="ui-widget" style="margin-top:2em; font-family:Arial">
+          Result:
+          <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+</div>
+        <!-- trying to get live search to work -->
 
         <p id="choice_1"></p>
         <p id="choice_2"></p>
         <p id="demo3"></p>
-
+        
+        <div id="svg"></div>
+        
     </div>
 
 </body>
