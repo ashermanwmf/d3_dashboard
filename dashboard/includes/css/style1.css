@@ -46,6 +46,26 @@ p#choice_2 {
     
 }
 
+span.ui-helper-hidden-accessible {
+
+	display: none;
+	
+}
+
+li.ui-menu-item {
+
+	background-color: #EEEEEE;
+	padding: 10px;
+	width: 50%;
+	
+}
+
+div#log div {
+	
+	font-size: 16pt;
+	
+}
+
 
 /* CSS from online for the navbar */
 
