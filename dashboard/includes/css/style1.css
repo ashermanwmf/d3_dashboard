@@ -60,6 +60,12 @@ li.ui-menu-item {
 	
 }
 
+li.ui-menu-item:hover {
+
+	background-color: RGBA(243, 173, 0, .5);
+	
+}
+
 div#log div {
 	
 	font-size: 16pt;
