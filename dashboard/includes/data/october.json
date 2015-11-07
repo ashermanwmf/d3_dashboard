@@ -2190,9 +2190,9 @@
     "FIELD3":null
   },
   {
-    "FIELD1":"Luis Villa: \"I wanted to be an Internet lawyer\",7\n",
-    "FIELD2":" March 2015\"",
-    "FIELD3":6
+    "FIELD1":"Luis Villa: I wanted to be an Internet lawyer",
+    "FIELD2":"6",
+    "FIELD3":""
   },
   {
     "FIELD1":"Survey shows interest in evaluation in Wikimedia movement, with room to grow",
@@ -3210,9 +3210,9 @@
     "FIELD3":null
   },
   {
-    "FIELD1":"\"One small step...\",4\n",
-    "FIELD2":" August 2014\"",
-    "FIELD3":4
+    "FIELD1":"One small step...",
+    "FIELD2":"4",
+    "FIELD3":null 
   },
   {
     "FIELD1":"Apply for the FOSS Outreach Program for Women internships",
@@ -5310,9 +5310,9 @@
     "FIELD3":null
   },
   {
-    "FIELD1":"\"Wikipedia es la mejor cosa que ha hecho internet\",1\n",
-    "FIELD2":" April 2014\"",
-    "FIELD3":1
+    "FIELD1":"Wikipedia es la mejor cosa que ha hecho internet",
+    "FIELD2":"1",
+    "FIELD3":null
   },
   {
     "FIELD1":"The Wikipedia editors behind the curtain",

@@ -6,7 +6,7 @@ logo{
 
 html body{
 	margin: 0;
-	background: #ccc;
+	background: #EEEEEE;
 	font: sans-serif;
 }
 
@@ -54,7 +54,7 @@ span.ui-helper-hidden-accessible {
 
 li.ui-menu-item {
 
-	background-color: #EEEEEE;
+	background-color: #E1EEEE;
 	padding: 10px;
 	width: 50%;
 	
@@ -72,11 +72,23 @@ div#log div {
 	
 }
 
+div#log div.item{
+
+	float:left;
+	
+}
+
+div#svg {
+
+	float: right;
+	
+}
+
 
 /* CSS from online for the navbar */
 
 
-.navbar-inverse { background-color: #8F9ECC; opacity:0.85; font-size:15px; padding-top:16px;  padding-bottom:16px }
+.navbar-inverse { background-color: RGBA(0, 159, 85, .5); opacity:0.85; font-size:15px; padding-top:16px;  padding-bottom:16px }
 .navbar-inverse .navbar-nav>li>a{font-size: 15px;-webkit-transition: all .3s;-moz-transition: all .3s;-ms-transition: all .3s;-o-transition: all .3s;transition: all .3s; ;}
 .navbar-inverse .navbar-nav>li>a { color:#efefef; padding-bottom:6px; padding-right:10px; }
 .navbar-inverse .navbar-nav li { margin-left:15px; text-transform: uppercase; }

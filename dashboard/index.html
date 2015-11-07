@@ -7,8 +7,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
     <script src="dashboard/includes/js/bootstrap.min.js"></script>
     <script src="dashboard/includes/js/jquery.quicksand.js"></script>
-    <script src="dashboard/includes/js/map.js"></script>
-    <script src="dashboard/includes/js/send_email.php"></script>
     <script src="dashboard/includes/js/functions.js"></script>
     <script>
         $(document).ready(function() {
@@ -42,7 +40,12 @@
     <div class="index_body">
         <span id="Dashboard"></span>
         <h1>Compare Stories</h1>
-        
+        <div>
+			<select id="month">
+				<option value="september">September</option>
+				<option value="october">October</option>
+			</select>
+		</div>
         <div class="ui-widget">
           <label for="search">Choose your stories: </label>
           <input id="search">

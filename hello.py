@@ -35,18 +35,6 @@ client_app = Blueprint('client_app', __name__,
 def home():
     return send_file('dashboard/index.html')
 
-#sample json
-x = { "name"    : "test"
-    , "age"     : "12"}
-
-# sample preform json
-@client_app.route('/data', methods=['POST'])
-def data():
-    '''
-        Query the DB for 'data' and return data as JSON
-    '''
-    return jsonify(x);
-
 # sample preform json
 @client_app.route('/dashboard/includes/data/<file>', methods=['POST'])
 def october(file = None):
