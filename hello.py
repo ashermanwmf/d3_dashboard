@@ -24,7 +24,7 @@ def Authenticate():
     else:
         return "Logged in successfully"
 
-# for acessing the right pasth to index.html in dashboards/
+# for acessing the right path to index.html in dashboards/
 client_app = Blueprint('client_app', __name__,
                     static_url_path='/dashboard',
                     static_folder='dashboard',
