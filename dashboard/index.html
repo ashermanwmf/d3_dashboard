@@ -8,8 +8,10 @@
     <script src="dashboard/includes/js/bootstrap.min.js"></script>
     <script src="dashboard/includes/js/jquery.quicksand.js"></script>
     <script src="dashboard/includes/js/functions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
     <script>
         $(document).ready(function() {
+//            $.extend(Chart.defaults.global, {animation: false, responsive: true});
             getdata();
         });
     </script>
@@ -40,12 +42,6 @@
     <div class="index_body">
         <span id="Dashboard"></span>
         <h1>Compare Stories</h1>
-        <div>
-			<select id="month">
-				<option value="september">September</option>
-				<option value="october">October</option>
-			</select>
-		</div>
         <div class="ui-widget">
           <label for="search">Choose your stories: </label>
           <input id="search">
@@ -56,9 +52,12 @@
           <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
         </div>
         <!-- trying to get live search to work -->
-        
-        <div id="svg"></div>
-        
+        <canvas class="aqs-chart" width="760" height="760" style="width: 760px; height: 380px;"></canvas>
     </div>
+    
+    <!-- Chart -->
+      <div class="col-lg-8 col-lg-offset-2">
+        <canvas class="aqs-chart"></canvas>
+      </div>
 
 </body>
