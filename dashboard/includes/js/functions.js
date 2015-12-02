@@ -106,6 +106,9 @@ function getdata() {
     }
     
     function redrawList() {
+        
+        /*Distributed under the Unlicense: http://unlicense.org*/
+        
         // Build the article's dataset.
               var labels = x.selectedStories.map(function (elem) { return elem.labels; });
               var values = x.selectedStories.map(function (elem) { return elem.views; });
@@ -158,6 +161,7 @@ function getdata() {
         $("#log").scrollTop(0);
     }
     
+    /*Distributed under the Unlicense: http://unlicense.org*/
      var config = {
         chart: '.aqs-chart',
       };
